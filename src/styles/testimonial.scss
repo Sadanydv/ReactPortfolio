@@ -1,0 +1,58 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.section-info{
+  >h1{
+    font-size: 3rem;
+  }
+  >p{
+    margin-top: 5px;
+  }
+}
+#testimonial{
+  color: white;
+	padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: $color1;
+}
+.skills-row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: rgb(45,52,54);
+	padding: 50px;
+  margin-top: 90px;
+  height: 90vh;
+}
+.skills-left-col{
+	flex-basis: 50%;
+	text-align: justify;
+
+}
+.skills-left-col p{
+	font-size: 20px;
+
+}
+.skills-right-col{
+	flex-basis: 50%;
+}
+progress-div{
+	width: 70%;
+	margin: auto;
+  color: white;
+}
+progress {
+	width: 80%;
+}
+.progress-div p{
+	margin-bottom: 10px;
+	font-size: 20px;
+	padding-left: 80px;
+	text-align: justify;
+}
