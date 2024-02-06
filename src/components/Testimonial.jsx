@@ -63,6 +63,14 @@ const Testimonial = () => {
               <progress value="70" max="100"></progress>
               <span>70%</span>
             </p>
+
+              <p>
+              <span>NodeJs</span>
+              <br />
+              <progress value="60" max="100"></progress>
+              <span>60%</span>
+            </p>
+            
           </div>
         </div>
       </div>
